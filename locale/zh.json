@@ -1,0 +1,16 @@
+{
+  "action": "性能指标",
+  "title": "性能指标",
+  "model": "模型",
+  "input": "输入",
+  "cached": "缓存命中",
+  "cacheWrite": "缓存写入",
+  "output": "输出",
+  "reasoning": "（推理 {tokens}）",
+  "ttft": "首 token",
+  "prefill": "预填充",
+  "decode": "解码",
+  "total": "总耗时",
+  "empty": "暂无数据",
+  "unit": "tok/s"
+}

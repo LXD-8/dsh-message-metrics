@@ -1,0 +1,16 @@
+{
+  "action": "Performance",
+  "title": "Performance",
+  "model": "Model",
+  "input": "Input",
+  "cached": "Cached",
+  "cacheWrite": "Cache write",
+  "output": "Output",
+  "reasoning": "({tokens} reasoning)",
+  "ttft": "First token",
+  "prefill": "Prefill",
+  "decode": "Decode",
+  "total": "Total",
+  "empty": "No data",
+  "unit": "tok/s"
+}

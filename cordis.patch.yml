@@ -1,0 +1,5 @@
+# Message metrics bundle patch: one Host row that carries the browser
+# dashboard under every assistant reply.
+- insert:
+    - id: dsh-message-metrics
+      name: '@local/dsh-message-metrics'
