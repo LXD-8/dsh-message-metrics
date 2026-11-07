@@ -1,5 +1,7 @@
 # Message metrics
 
+<img src="docs/icon.png" alt="The Message metrics plugin icon" width="360">
+
 A DeepSeek Harness plugin that puts a gauge action under every assistant
 reply. Opening it shows that reply's performance dashboard:
 
