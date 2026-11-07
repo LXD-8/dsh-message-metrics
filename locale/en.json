@@ -12,5 +12,9 @@
   "decode": "Decode",
   "total": "Total",
   "empty": "No data",
-  "unit": "tok/s"
+  "unit": "tok/s",
+  "meta": {
+    "title": "Message metrics",
+    "description": "A gauge under every assistant reply that opens its performance dashboard: model, prompt and cached tokens, first-token latency, prefill and decode throughput."
+  }
 }
