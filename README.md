@@ -59,7 +59,11 @@ Add it to your DSH profile as a linked dependency and select the
 ```
 
 The bundle name is `@local/dsh-message-metrics`; after the next load the gauge
-appears in every assistant message's action row.
+appears in every assistant message's action row. Or install with the CLI:
+
+```bash
+dsh plugin --profile desktop add github:LXD-8/dsh-message-metrics
+```
 
 ## Usage
 
