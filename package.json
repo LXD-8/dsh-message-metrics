@@ -1,6 +1,6 @@
 {
   "name": "@local/dsh-message-metrics",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "type": "module",
   "description": "A gauge action under each assistant reply that opens the message's performance dashboard: model, prompt and cached tokens, TTFT, prefill and decode throughput, and total time.",

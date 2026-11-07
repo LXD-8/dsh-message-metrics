@@ -14,7 +14,7 @@
   "empty": "暂无数据",
   "unit": "tok/s",
   "meta": {
-    "title": "消息指标",
+    "title": "性能指标",
     "description": "在每条助手回复下加一个仪表盘入口，显示模型、提示词与缓存 token、首 token 延迟、预填充与解码速度。"
   }
 }

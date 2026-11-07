@@ -1,4 +1,4 @@
-# Message metrics
+# Performance metrics
 
 <img src="docs/icon.png" alt="The Message metrics plugin icon" width="360">
 

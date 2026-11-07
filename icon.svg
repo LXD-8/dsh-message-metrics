@@ -1,11 +1,18 @@
 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M9.2 26.4a11.5 11.5 0 1 1 17.6 0" stroke="url(#metrics-body)" stroke-width="3" stroke-linecap="round" />
-  <path d="M18 19l6.4-6.4" stroke="#41E1AC" stroke-width="3" stroke-linecap="round" />
-  <circle cx="18" cy="19" r="2.5" fill="url(#metrics-body)" />
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .mm-body-a { stop-color: #8FB4FF; }
+      .mm-body-b { stop-color: #6B9BFF; }
+      .mm-needle { stroke: #5CF2C4; }
+    }
+  </style>
+  <path d="M9.2 26.4a11.5 11.5 0 1 1 17.6 0" stroke="url(#mm-body)" stroke-width="3" stroke-linecap="round" />
+  <path class="mm-needle" d="M18 19l6.4-6.4" stroke="#41E1AC" stroke-width="3" stroke-linecap="round" />
+  <circle cx="18" cy="19" r="2.5" fill="url(#mm-body)" />
   <defs>
-    <linearGradient id="metrics-body" x1="7" y1="7" x2="29" y2="28" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#658EFF" />
-      <stop offset="1" stop-color="#3F77D8" />
+    <linearGradient id="mm-body" x1="7" y1="7" x2="29" y2="28" gradientUnits="userSpaceOnUse">
+      <stop class="mm-body-a" stop-color="#658EFF" />
+      <stop class="mm-body-b" offset="1" stop-color="#3F77D8" />
     </linearGradient>
   </defs>
 </svg>
