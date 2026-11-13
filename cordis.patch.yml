@@ -2,4 +2,4 @@
 # dashboard under every assistant reply.
 - insert:
     - id: dsh-message-metrics
-      name: '@local/dsh-message-metrics'
+      name: 'dsh-message-metrics'

@@ -18,7 +18,7 @@
  * and the same viewport-clamped placement above the trigger.
  */
 window.__ModuleLoader__.load({
-  id: '@local/dsh-message-metrics',
+  id: 'dsh-message-metrics',
   factory(require) {
     const React = require('react')
     const { createPortal } = require('react-dom')

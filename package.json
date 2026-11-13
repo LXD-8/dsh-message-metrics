@@ -1,6 +1,6 @@
 {
-  "name": "@local/dsh-message-metrics",
-  "version": "0.1.5",
+  "name": "dsh-message-metrics",
+  "version": "0.1.6",
   "private": true,
   "type": "module",
   "description": "A gauge action under each assistant reply that opens the message's performance dashboard: model, prompt and cached tokens, TTFT, prefill and decode throughput, and total time.",
@@ -29,5 +29,20 @@
       "immediately": true
     }
   },
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "performance",
+    "tokens",
+    "metrics"
+  ],
+  "author": {
+    "name": "LI",
+    "url": "https://github.com/LXD-8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LXD-8/dsh-message-metrics.git"
+  }
 }

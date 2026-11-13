@@ -53,14 +53,19 @@ viewport-clamped placement above the trigger.
 
 ## Install
 
-Add it to your DSH profile as a linked dependency and select the
-`@local/dsh-message-metrics` bundle:
+Install it from this repository into your DSH profile:
 
-```json
-"@local/dsh-message-metrics": "link:/absolute/path/to/dsh-message-metrics"
+```text
+plugin_manager install_bundle github:LXD-8/dsh-message-metrics
 ```
 
-The bundle name is `@local/dsh-message-metrics`; after the next load the gauge
+For local development, link the checkout instead:
+
+```json
+"dsh-message-metrics": "link:/absolute/path/to/dsh-message-metrics"
+```
+
+The bundle name is `dsh-message-metrics`; after the next load the gauge
 appears in every assistant message's action row. Or install with the CLI:
 
 ```bash
